@@ -1,0 +1,66 @@
+// condition statement
+// ternary operator
+//condition ? exprIfTrue : exprIfFalse
+// switch case syantax
+switch(expression) {
+    case x:
+      // code block
+      break;
+    case y:
+      // code block
+      break;
+    default:
+      // code block
+  }
+  // Truthy or Falsy
+// Truthy - 'A' , "chinmay" , -1 , " ", {} , [], 8==8 , true, @
+// Falsy  - 0 , null , undefined , 7 < 6 , false , NaN ,""
+// 0 null undefined NaN IMP !
+
+/// loop
+//for loop and while loop
+// for loop 
+
+// for(intialization ; conditionCheck ; increment/decrement){
+//     // statements
+// }
+// break statement with for loop
+// program 6
+for(let i = 1 ; i <= 5 ; i++){  // 2
+    console.log(i)  //1 //2
+    if(i == 2){
+        break;
+    }
+}
+for(let i = 1 ; i <= 5 ; i++){  // 2
+    console.log(i)  //1 //2
+    if(i == 2){
+        continue;
+    }
+}
+// while loop
+// intialzation 
+// while(condition){
+//     // statement 
+//     // increment / decrement
+// }
+// let i = 1
+// while(i<=5){
+//     if(i==2){
+//       break
+//       }
+//       console.log(i)
+//       i++
+  
+// }
+
+
+// let i = 1
+// while(i<=5){
+//     if(i==2){
+//         i ++
+//         continue
+//     }
+//     console.log(i)
+//     i++
+// }
